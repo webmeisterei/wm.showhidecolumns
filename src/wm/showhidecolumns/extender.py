@@ -32,7 +32,7 @@ class ColumnsSchemaExtender(object):
         fields = [
             ExtensionStringField('leftPortletslot',
                          required = False,
-                         languageIndependent = True,
+                         languageIndependent = False,
                          schemata = 'settings',
                          vocabulary=COLUMN_VOCABULARY,
                          enforce_vocabulary=True,
@@ -46,7 +46,7 @@ class ColumnsSchemaExtender(object):
             
             ExtensionStringField('rightPortletslot',
                          required = False,
-                         languageIndependent = True,
+                         languageIndependent = False,
                          schemata = 'settings',
                          vocabulary=COLUMN_VOCABULARY,
                          enforce_vocabulary=True,
