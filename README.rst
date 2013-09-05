@@ -44,8 +44,8 @@ implement ``wm.showhidecolumns.interfaces.IControlColumns``.
 
 
 
-How can I help
-==============
+How can I help?
+===============
 
 * Add translations for your language (currently English and German)
 
